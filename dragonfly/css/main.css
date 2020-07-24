@@ -16,14 +16,21 @@
                                                                                 background: rgb(77, 94, 129);
                                                                                 color: white;
                                                                             }
-                                                                            /* Extra small devices (phones, 600px and down) */
+                                                                            /* --- flexible images --- */
                                                                             
-                                                                            @media only screen and (max-width: 600px) {
+                                                                            img {
+                                                                                width: auto;
+                                                                                max-width: 100%;
+                                                                                height: auto;
+                                                                            }
+                                                                            /* Extra small devices (phones, 800px and down) */
+                                                                            
+                                                                            @media only screen and (max-width: 800px) {
                                                                                 ...
                                                                             }
                                                                             /* Small devices (portrait tablets and large phones, 600px and up) */
                                                                             
-                                                                            @media only screen and (min-width: 600px) {
+                                                                            @media only screen and (min-width:600px) {
                                                                                 ...
                                                                             }
                                                                             /* Medium devices (landscape tablets, 768px and up) */
@@ -41,7 +48,6 @@
                                                                             @media only screen and (min-width: 1200px) {
                                                                                 ...
                                                                             }
-                                                                            
                                                                             
                                                                             .topnav {
                                                                                 overflow: hidden;
@@ -89,7 +95,7 @@
                                                                             /* mouse over link */
                                                                             
                                                                             {
-                                                                                color: purple;
+                                                                                background-color: orangered;
                                                                             }
                                                                             
                                                                             a:active
