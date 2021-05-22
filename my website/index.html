@@ -13,40 +13,56 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="favicon.ico">
+ 
+ <!-- Place favicon.ico in the root directory -->
+ <link rel="icon" href="favicon.ico">
 
-  <!-- Place favicon.ico in the root directory -->
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+<!-- Bootstrap CSS File -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
   <meta name="theme-color" content="#fafafa">
+
 </head>
 
 <body>
 
+<!--wrap nav bar in colored padded background-->
 
   <!--buttons to navbar-->
-
   <nav role="navigation" aria-label="main menu"></nav>
     <ul class="navbar">
-      <li><button class="button-primary" href="/">Home</a></li>
-      <li><button class="button-primary" href="/Blog">Blog</a></li>
-      <li><button class="button-primary" href="/Portfolio">Portfolio</a></li>
-      <li><button class="button-primary" href="/Resume">Resume</a></li>
-      <li><button class="button-primary" href="/Books">Books</a></li>
+      <li><button class="button-primary"><a href="success.html" target="new">Home</a></button></li>
+      <li><button class="button-primary"><a href="success.html" target="new">Blog</a></li>
+      <li><button class="button-primary"><a href="success.html" target="new">Portfolio</a></li>
+      <li><button class="button-primary"><a href="success.html" target="new">Resume</a></li>
+      <li><button class="button-primary"><a href="success.html" target="new">Books</a></li>
     </ul>
   </nav>
+
 
   <!-- Add your site or application content here -->
   <center><h1>Pix-N-Werds</h1></center>
   <p><h2>Begin working on this website from here.</h2></p>
 
-
-
-
-
-
+  <center><p>Comment Below</p>
+    <form action="mailto:info@allthingsicreate.com"> <!--how do i send to email secretly?-->
+      <label for="textarea"></label>
+       <textarea id="textarea" name="Comment"
+      cols="50" rows="10"></textarea>
+      <br><br>
+      <button type="submit">Submit</button>
+    </form></center>
 
 
 
@@ -69,7 +85,23 @@
 <br>
 <br>
 <br>
-<br>
+
+<center><p>To SUBSCRIBE, fill out the form below</p>
+<form action="success.html" target="new" method="get"> <!--get is VERY unsecure. DON'T use!-->
+  <label for="name">First Name</label>
+     <input name="name" id="name" type="text" required
+          placeholder="first">
+  <br><br>
+  <label for="name">Last Name</label>
+      <input name="name" id="name" type="text" required
+          placeholder="last">
+  <br><br>
+  <label for="email">Email</label>
+      <input name="email" id="email" type="email" required
+          placeholder="myemail@myemail.com">
+  <br><br>
+  <button type="submit">SUBSCRIBE</button>
+</form></center>
 
 <footer>
   <p><small><center>Copyright &copy;name year. All rights reserved.</center></small></p>
