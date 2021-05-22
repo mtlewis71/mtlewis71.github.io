@@ -15,22 +15,20 @@ html {
 
 /* Sections
    ========================================================================== */
-
 /**
  * Remove the margin in all browsers.
  */
 
 body {
   margin: 0;
+  
 }
 
 /**added additional elements for navbar**/
+
 html {
-  margin: 2em;
+  margin: 1em;
   font-size: 180%;
-}
-  
-html {
   font-family: avenir;
   line-height: 1.5;
 }
