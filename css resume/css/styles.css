@@ -84,10 +84,12 @@ header {
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 p {
     font-size: 15px;
+    text-align: center;
 }
 /* Projects 
 ----------------------------------------------- */
@@ -125,7 +127,7 @@ p {
     background-image: url(../images/writing.jpg); 
     background-size: cover;
     background-position: top right;
-    padding: 100px;
+    padding: 15px;
    /* max-width: 600px;
     padding: 100px;
     background-repeat: no-repeat; */
